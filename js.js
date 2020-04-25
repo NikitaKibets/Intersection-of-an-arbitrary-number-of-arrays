@@ -25,3 +25,7 @@ function getInt(...arrs) { // поиск совпадений в неогран�
 }
 
 console.log(getInt([1, 2, 3], [1, 2, 4], [1, 2, 3, 4], [2, 3, 4, 5, 6, 7,]));
+
+//____________Or this variant_______________
+let dif = ar1.filter(elem => ar2.includes(elem));
+console.log(dif);
